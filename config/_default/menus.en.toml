@@ -1,0 +1,170 @@
+# ################################################################
+# OUR SERVICES
+# ################################################################
+[[main]]
+weight = 1
+name = "Our Services"
+hasChildren = true
+[main.params]
+isMenuLarge = true
+
+[[main]]
+parent = "Our Services"
+name = "English Programs"
+pre = "<i class='dropdown-icon fas fa-earth-americas'></i>"
+post = "<small class='dropdown-subtitle'>Convert leads and close sales deals faster.</small>"
+url = "our-services/english-classes/"
+weight = 1
+
+[[main]]
+parent = "Our Services"
+name = "English Camps"
+pre = "<i class='dropdown-icon fas fa-campground'></i>"
+post = "<small class='dropdown-subtitle'>Convert leads and close sales deals faster.</small>"
+url = "our-services/english-camps/"
+weight = 2
+
+[[main]]
+parent = "Our Services"
+name = "Events & Workshops"
+pre = "<i class='dropdown-icon fas fa-users-line'></i>"
+post = "<small class='dropdown-subtitle'>Software to deliver great customer support.</small>"
+url = "our-services/workshops-and-events/"
+weight = 3
+
+[[main]]
+parent = "Our Services"
+name = "IT Classes"
+pre = "<i class='dropdown-icon fas fa-code'></i>"
+post = "<small class='dropdown-subtitle'>Software to deliver great customer support.</small>"
+url = "our-services/it-classes/"
+weight = 4
+
+
+
+
+# ################################################################
+# ABOUT US
+# ################################################################
+[[main]]
+weight = 2
+name = "About Us"
+hasChildren = true
+[main.params]
+isMenuLarge = true
+
+[[main]]
+parent = "About Us"
+name = "The AstroLab Concept"
+url = "about/"
+weight = 1
+pre = "<i class='dropdown-icon fas fa-chart-bar'></i>"
+post = "<small class='dropdown-subtitle'>Our Story, Vision and Methods</small>"
+
+[[main]]
+parent = "About Us"
+name = "Our Team"
+url = "our-team/team/"
+weight = 4
+pre = "<i class='dropdown-icon fas fa-chart-bar'></i>"
+post = "<small class='dropdown-subtitle'>Get to know more our Team Members</small>"
+
+[[main]]
+parent = "About Us"
+name = "FAQ"
+url = "faq/"
+pre = "<i class='dropdown-icon fas fa-circle-question'></i>"
+weight = 8
+
+
+
+
+# ################################################################
+# BLOG
+# ################################################################
+[[main]]
+weight = 3
+name = "Blog"
+url = "blog/"
+
+
+
+# ################################################################
+# CAFÉ
+# ################################################################
+[[main]]
+weight = 4
+name = "Café"
+url = "cafe/"
+
+
+
+
+# ################################################################
+# LIBRARY
+# ################################################################
+[[main]]
+weight = 5
+name = "Library"
+url = "library/"
+
+
+
+# ################################################################
+# FOOTER
+# ################################################################
+# footer menu left
+[[footer_left]]
+name = "English Programs"
+url = "about/"
+weight = 1
+
+[[footer_left]]
+name = "English Camps"
+url = "about/"
+weight = 2
+
+[[footer_left]]
+name = "IT Programs"
+url = "team/"
+weight = 3
+
+[[footer_left]]
+name = "Workshops & Events"
+url = "how-it-works/"
+weight = 4
+
+
+
+# footer menu middle
+[[footer_middle]]
+name = "Our Vision of Education"
+url = "about/"
+weight = 1
+
+[[footer_middle]]
+name = "AstroLab Library"
+url = "about/"
+weight = 2
+
+[[footer_middle]]
+name = "AstroLab Café"
+url = "products/product-3/"
+weight = 3
+
+
+# footer menu right
+[[footer_right]]
+name = "Visit Us"
+url = "faq/"
+weight = 1
+
+[[footer_right]]
+name = "Contact Us"
+url = "contact/"
+weight = 2
+
+[[footer_right]]
+name = "FAQ"
+url = "faq/"
+weight = 3
